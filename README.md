@@ -16,7 +16,7 @@ As has already been mentioned, this project implements a version of the "Would y
 * *Application Setup*: the application can be installed and started easily, and includes the README file you are viewing right now, with installation and launch instructions.
 * *Login Flow*: log in and log out functionality is provided, and the application works correctly regardless of which user is the logged in one.
 * *Application Functionality*: the application features a home page, where question polls are classified into answered and unanswered ones. Question poll details can be seen, and a voting mechanism provided. It is also possible to add new question polls, and access is provided to a leaderboard that ranks users. In addition, a navigation bar is provided. Finally, it is noteworthy that the application interacts with the already existing backend, and runs without errors or undue warnings, and features conveniently formatted code.
-* *Architecture*: the application has the store as its only source of truth, and its state is managed by Redux, and correclty updated. Moreover, code is logically structured, and modularity and reusability of components is enforced.
+* *Architecture*: the application has the store as its only source of truth, and its state is managed by Redux, and correctly updated. Moreover, code is logically structured, and modularity and reusability of components is enforced.
 
 This is the React component hierarchy that has been chosen:
 ```bash
@@ -40,7 +40,7 @@ App.js
 These are the steps to be followed to further develop and/or test this project:
 
 * Firstly, you have to download/clone the project files from this repository onto your local machine. Then, cd into the root folder where the project files are located.
-* Secondly, you have to run `npm install` and `npm start` to install all project dependencies, and start the development server, respectively. You should be able to view your app in the browser at *http://localhost:3000/*.
+* Secondly, you have to run `yarn install` and `yarn start` to install all project dependencies, and start the development server, respectively. You should be able to view your app in the browser at *http://localhost:3000/*.
 * Thirdly, the application can be manually tested:
     * The user is initially shown a login page where one of the existing users can be chosen, in order to be logged in.
     ![login1](/ScreenShots/login1.png)
